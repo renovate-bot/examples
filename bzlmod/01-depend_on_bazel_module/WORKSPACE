@@ -9,9 +9,9 @@ http_archive(
 
 http_archive(
     name = "com_github_google_glog",
-    sha256 = "eede71f28371bf39aa69b45de23b329d37214016e2055269b3b5e7cfd40b59f5",
-    strip_prefix = "glog-0.5.0",
-    urls = ["https://github.com/google/glog/archive/refs/tags/v0.5.0.tar.gz"],
+    sha256 = "00e4a87e87b7e7612f519a41e491f16623b12423620006f59f5688bfd8d13b08",
+    strip_prefix = "glog-0.7.1",
+    urls = ["https://github.com/google/glog/archive/refs/tags/v0.7.1.tar.gz"],
 )
 
 # We have to define gflags as well because it's a dependency of glog.
