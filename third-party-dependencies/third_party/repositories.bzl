@@ -27,10 +27,10 @@ def fetch_deps():
 
     http_archive(
         name = "buildifier_prebuilt",
-        sha256 = "72b5bb0853aac597cce6482ee6c62513318e7f2c0050bc7c319d75d03d8a3875",
-        strip_prefix = "buildifier-prebuilt-6.3.3",
+        sha256 = "67c6c12f364df863b306b8f0a3b07cba949a964cce6116aeab1ca22980c7d6e4",
+        strip_prefix = "buildifier-prebuilt-8.2.0",
         urls = [
-            "http://github.com/keith/buildifier-prebuilt/archive/6.3.3.tar.gz",
+            "http://github.com/keith/buildifier-prebuilt/archive/8.2.0.tar.gz",
         ],
     )
 
