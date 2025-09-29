@@ -10,7 +10,7 @@ maven = use_extension("@rules_jvm_external//:extensions.bzl", "maven")
 maven.install(
     artifacts = [
         "junit:junit:4.12",
-        "com.google.guava:guava:28.0-jre",
+        "com.google.guava:guava:28.2-jre",
     ],
     fetch_sources = True,
     repositories = [
