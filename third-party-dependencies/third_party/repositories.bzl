@@ -50,7 +50,7 @@ def fetch_deps():
 
     http_archive(
         name = "com_google_protobuf",
-        url = "https://github.com/protocolbuffers/protobuf/archive/v3.13.0.tar.gz",
-        sha256 = "9b4ee22c250fe31b16f1a24d61467e40780a3fbb9b91c3b65be2a376ed913a1a",
-        strip_prefix = "protobuf-3.13.0",
+        url = "https://github.com/protocolbuffers/protobuf/archive/v33.2.tar.gz",
+        sha256 = "eb671d900b05d8e17f4cd6ca61bfcc60770d209af1a289cb1a200815d6b621ae",
+        strip_prefix = "protobuf-33.2",
     )
