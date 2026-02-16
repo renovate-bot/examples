@@ -21,7 +21,7 @@ maven_install(
         "com.google.firebase:firebase-messaging:17.0.0",
         "com.android.support:appcompat-v7:26.1.0",
         "com.android.support.constraint:constraint-layout:1.0.2",
-        "com.google.code.gson:gson:2.8.2",
+        "com.google.code.gson:gson:2.13.2",
     ],
     # See https://github.com/bazelbuild/rules_jvm_external/#repository-aliases
     # This can be removed if none of your external dependencies uses `maven_jar`.
