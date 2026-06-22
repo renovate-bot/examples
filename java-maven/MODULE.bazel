@@ -9,7 +9,7 @@ bazel_dep(name = "rules_java", version = "7.11.1")
 maven = use_extension("@rules_jvm_external//:extensions.bzl", "maven")
 maven.install(
     artifacts = [
-        "junit:junit:4.12",
+        "junit:junit:4.13.2",
         "com.google.guava:guava:28.0-jre",
     ],
     fetch_sources = True,
