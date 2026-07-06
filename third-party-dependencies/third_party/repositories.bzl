@@ -36,9 +36,9 @@ def fetch_deps():
 
     http_archive(
         name = "catch2",
-        url = "https://github.com/catchorg/Catch2/archive/refs/tags/v3.4.0.zip",
-        sha256 = "cd175f5b7e62c29558d4c17d2b94325ee0ab6d0bf1a4b3d61bc8dbcc688ea3c2",
-        strip_prefix = "Catch2-3.4.0",
+        url = "https://github.com/catchorg/Catch2/archive/refs/tags/v3.15.1.zip",
+        sha256 = "4be2f2625776fe50b419acad9d28a8f6d3e030fc8c6b9df200bb0fb1ac998d52",
+        strip_prefix = "Catch2-3.15.1",
     )
 
     http_archive(
