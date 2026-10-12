@@ -43,9 +43,9 @@ def fetch_deps():
 
     http_archive(
         name = "gtest",
-        url = "https://github.com/google/googletest/archive/release-1.8.1.zip",
-        sha256 = "927827c183d01734cc5cfef85e0ff3f5a92ffe6188e0d18e909c5efebf28a0c7",
-        strip_prefix = "googletest-release-1.8.1",
+        url = "https://github.com/google/googletest/archive/v1.18.0.zip",
+        sha256 = "63b9c77751a5b8f492486005f67533fdc58682b67476fcb91650be5958d5195a",
+        strip_prefix = "googletest-1.18.0",
     )
 
     http_archive(
